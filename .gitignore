@@ -1,0 +1,30 @@
+
+cat << 'EOF' > .gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Virtual env
+venv/
+env/
+
+# Django
+db.sqlite3
+
+# Secrets
+.env
+
+# Static / Media
+media/
+
+# Pretrained models (don't track large files)
+pretrained/
+
+# OS junk
+.DS_Store
+Thumbs.db
+EOF
+
